@@ -1,0 +1,23 @@
+.sort-by-section {
+  position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 50px;
+    width: 35%;
+  }
+  
+  .sort-item {
+    margin-right: 40.05px;
+  }
+  
+  .sort-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .sort-item select {
+    padding: 5px 10px;
+  }
+  

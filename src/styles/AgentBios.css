@@ -1,0 +1,56 @@
+.agent-bios {
+  padding: 20px 50px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+.agent-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.agent-item {
+  width: 30%;
+  text-align: center;
+}
+
+.agent-img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.agent-info {
+  background-color: #f8f8f8;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.agent-info p {
+  margin: 5px 0;
+}
+
+.agent-social {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.agent-social a {
+  margin: 0 5px;
+  transition: transform 0.3s;
+}
+
+.agent-social img {
+  width: 30px;
+  height: 30px;
+}
+
+.agent-social a:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,108 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px 50px;
+  background-color: #333;
+  color: #f0f0f0;
+  gap: 20px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  padding: 0 15px;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-logo {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.footer-left p {
+  font-size: 14px;
+}
+
+.footer-center .footer-links {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.footer-center .footer-links a {
+  color: #f0f0f0;
+  margin-bottom: 8px;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-center .footer-links a:hover {
+  color: #f8c46c; /* Adjust color as desired */
+  transform: scale(1.05); /* Slightly increase the size */
+}
+
+
+.company-description {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.footer-right {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.footer-right h4 {
+  color: #f8c46c;
+  margin-bottom: 10px;
+}
+
+.ceo-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.agent-mini-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-agents {
+  grid-column: span 3;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #444;
+}
+
+.agent-item {
+  text-align: center;
+}
+
+.agent-item p {
+  font-size: 14px;
+  margin: 5px 0;
+}

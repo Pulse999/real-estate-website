@@ -1,0 +1,38 @@
+.filters {
+    display: flex;
+    align-items: center;
+    padding: 10px 50px;
+  }
+  
+  .filter-item {
+    margin-right: 30px;
+  }
+  
+  .filter-item label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .dropdowns select {
+    padding: 5px 10px;
+    margin-right: 10px;
+  }
+  
+  .more-filters-btn, .search-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .search-btn i {
+    margin-left: 5px;
+  }
+  
+  .more-filters-btn:hover, .search-btn:hover {
+    background-color: #0056b3;
+  }
+  

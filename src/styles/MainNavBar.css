@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Cormorant;
+  src: url(../public/fonts/Cormorant_Garamond/CormorantGaramond-Bold.ttf);
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+    margin-top: 40px; /* To avoid overlap with MiniNavBar */
+    font-family: Cormorant;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 100px;
+    font-size: 24px;
+    color: black;
+    background-image: url(/public/images/real-estate-logo-design_260747-324.avif);
+    background-size: 100% 100%; /* Start with the image covering the div */
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 30px;
+  }
+  
+  .nav-links a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 12px;
+    transition: background 0.3s ease;
+    border: none;
+  }
+  
+  .nav-links a:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+  }
+  
+  span {
+    position: relative;
+  }
+  
+  span::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #565043;
+    transform-origin: bottom right;
+    transform: scaleX(0);
+    transition: transform 0.5s ease;
+  }
+  
+  span:hover::before {
+    transform-origin: bottom left;
+    transform: scaleX(1);
+  }
+  
