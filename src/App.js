@@ -48,7 +48,7 @@ function App() {
           <Route path="/team" element={<OurTeam />} />
           <Route path="/property/:id" element={<PropertyDetail />} />
           <Route path="/open-houses" element={<OpenHouses />} />
-          
+          <Route path="/ContactPage" element={<ContactPage />} /> 
         </Routes>
         <Footer />
       </div>

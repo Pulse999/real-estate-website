@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-left">
-        <img src="/images/real-estate-logo-design_260747-324.png" alt="Company Logo" className="footer-logo" />
+        <img src="/images/real-estate-logo-design_260747-324.avif" alt="Company Logo" className="footer-logo" />
         <p>&copy; {new Date().getFullYear()} Real Estate Co. All rights reserved.</p>
       </div>
 

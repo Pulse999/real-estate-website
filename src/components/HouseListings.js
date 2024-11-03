@@ -455,7 +455,7 @@ const HouseListings = () => {
             <img
               className="house-img"
               src={house.image}
-              alt={`Image of ${house.address}`}
+              alt={`property of ${house.address}`}
             />
             <div className="house-info">
               <p>{house.address}</p>

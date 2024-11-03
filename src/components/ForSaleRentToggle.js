@@ -8,15 +8,15 @@ function ForSaleRentToggle() {
     <div className="for-sale-rent">
       <div
         className={`option ${activeOption === "forSale" ? "active" : ""}`}
-        onClick={() => setActiveOption("forSale")}
+        onClick={() => setActiveOption("")}
       >
-        FOR SALE
+        
       </div>
       <div
         className={`option ${activeOption === "forRent" ? "active" : ""}`}
-        onClick={() => setActiveOption("forRent")}
+        onClick={() => setActiveOption("")}
       >
-        FOR RENT
+        
       </div>
     </div>
   );
