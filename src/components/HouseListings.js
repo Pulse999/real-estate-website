@@ -15,8 +15,7 @@ const HouseListings = () => {
       courtesy: "City Real Estate",
       image: "/images/House 1/House 1.jpg",
       details: {
-        images: [],
-        price: "$3,200,000",
+        images: ["/images/House 1/kitchen1.jpg","/images/House 1/Dining1.jpg","/images/House 1/Toilet1.jpg","/images/House 1/Bed1.jpg"],
         address: "123 Example St, City, State",
         information: {
           purchaseType: "For Sale",
@@ -57,8 +56,8 @@ const HouseListings = () => {
       courtesy: "Prime Realty",
       image: "/images/House 2/House 2.jpg",
       details: {
-        images: [],
-        price: "$3,500,000",
+        images: ["/images/House 2/kitchen2.jpg","/images/House 2/Dining2.jpg","/images/House 2/Toilet2.jpg","/images/House 2/Bed2.jpg"],
+        price: "",
         address: "456 Sample Ave, Town, State",
         information: {
           purchaseType: "For Sale",
@@ -100,8 +99,8 @@ const HouseListings = () => {
       courtesy: "Village Realty",
       image: "/images/House 3/House 3.jpg",
       details: {
-        images: [],
-        price: "$2,800,000",
+        images: ["/images/House 3/kitchen3.jpg","/images/House 3/Dining3.jpg","/images/House 3/Toilet3.jpg","/images/House 3/Bed3.jpg"],
+        price: "",
         address: "789 Example Ave, Village, State",
         information: {
           purchaseType: "For Rent",
@@ -146,8 +145,8 @@ const HouseListings = () => {
       courtesy: "Urban Real Estate",
       image: "/images/House 4/House 4.jpg",
       details: {
-        images: [],
-        price: "$5,500,000",
+        images: ["/images/House 4/kitchen4.jpg","/images/House 4/Dining4.jpg","/images/House 4/Toilet4.jpg","/images/House 4/Bed4.jpg"],
+        price: "",
         address: "101 Prime Blvd, Metropolis, State",
         information: {
           purchaseType: "For Sale",
@@ -189,8 +188,8 @@ const HouseListings = () => {
       courtesy: "Country Homes",
       image: "/images/House 5/House 5.jpg",
       details: {
-        images: [],
-        price: "$2,200,000",
+        images: ["/images/House 5/kitchen5.jpg","/images/House 5/Dining5.jpg","/images/House 5/Toilet5.jpg","/images/House 5/Bed5.jpg"],
+        price: "",
         address: "202 Peaceful Rd, Rural, State",
         information: {
           purchaseType: "For Sale",
@@ -235,8 +234,8 @@ const HouseListings = () => {
       courtesy: "Suburban Realty",
       image: "/images/House 6/House 6.jpg",
       details: {
-        images: [],
-        price: "$3,000,000",
+        images: ["/images/House 6/kitchen6.jpg","/images/House 6/Dining6.jpg","/images/House 6/Toilet6.jpg","/images/House 6/Bed6.jpg"],
+        price: "",
         address: "303 Suburban Dr, Suburbia, State",
         information: {
           purchaseType: "For Rent",
@@ -277,8 +276,8 @@ const HouseListings = () => {
       courtesy: "Coastal Realty",
       image: "/images/House 7/House 7.jpg",
       details: {
-        images: [],
-        price: "$2,900,000",
+        images: ["/images/House 7/kitchen7.jpg","/images/House 7/Dining7.jpg","/images/House 7/Toilet7.jpg","/images/House 7/Bed7.jpg"],
+        price: "",
         address: "404 Coastal Rd, Seaside, State",
         information: {
           purchaseType: "For Sale",
@@ -323,8 +322,8 @@ const HouseListings = () => {
       courtesy: "Lakeside Homes",
       image: "/images/House 8/House 8.jpg",
       details: {
-        images: [],
-        price: "$4,300,000",
+        images: ["/images/House 8/kitchen8.jpg","/images/House 8/Dining8.jpg","/images/House 8/Toilet8.jpg","/images/House 8/Bed8.jpg"],
+        price: "",
         address: "505 Lake Rd, Lakeview, State",
         information: {
           purchaseType: "For Sale",
@@ -366,8 +365,8 @@ const HouseListings = () => {
       courtesy: "Urban Spaces Realty",
       image: "/images/House 9/House 9.jpg",
       details: {
-        images: [],
-        price: "$3,700,000",
+        images: ["/images/House 9/kitchen9.jpg","/images/House 9/Dining9.jpg","/images/House 9/Toilet9.jpg","/images/House 9/Bed9.jpg"],
+        price: "",
         address: "606 Metro Blvd, Downtown, State",
         information: {
           purchaseType: "For Rent",
@@ -409,8 +408,8 @@ const HouseListings = () => {
       courtesy: "Uptown Realty",
       image: "/images/House 10/House 10.jpg",
       details: {
-        images: [],
-        price: "$6,000,000",
+        images: ["/images/House 10/kitchen10.jpg","/images/House 10/Dining10.jpg","/images/House 10/Toilet10.jpg","/images/House 10/Bed10.jpg"],
+        price: "",
         address: "707 Park Ave, Uptown, State",
         information: {
           purchaseType: "For Sale",

@@ -11,12 +11,12 @@ function Footer() {
 
       <div className="footer-center">
         <div className="footer-links">
-          <a href="#home">Home</a>
-          <a href="#buying-selling">Buying/Selling</a>
-          <a href="#listings">Listings</a>
-          <a href="#search">Search</a>
-          <a href="#team">Our Team</a>
-          <a href="#open-houses">Open Houses</a>
+          <a href="/">Home</a>
+          <a href="/selling">Selling</a>
+          <a href="/listings">Listings</a>
+          <a href="/team">Our Team</a>
+          <a href="/open-houses">Open Houses</a>
+          <a href="/contact">Contact</a>
         </div>
         <p className="company-description">
           Real Estate Co., serving clients for over 20 years with trust and integrity.
